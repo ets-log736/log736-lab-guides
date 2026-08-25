@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+*.token
+*.secret
+secrets.json
+credentials.json
+
+# Local generated state
+state/
+runs/
+logs/
+*.log
+
+# Editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Optional local active-semester shortcuts
+config/semester.json
+config/teams.csv
+
+MOODLE-LINKS.md
